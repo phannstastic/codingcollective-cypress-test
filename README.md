@@ -1,41 +1,76 @@
-# CodingCollective Cypress E2E Tests
+CodingCollective Cypress E2E Tests
+Repositori ini berisi rangkaian pengujian End-to-End (E2E) otomatis untuk situs web Coding Collective yang dibuat menggunakan Cypress.
 
-This repository contains automated end-to-end tests for the [Coding Collective](https://codingcollective.com/) website using Cypress.
+📋 Daftar Isi
+Prasyarat
 
-## Setup Instructions
+Panduan Memulai
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/codingcollective-cypress-tests.git
-   cd codingcollective-cypress-tests
-Install dependencies
-Make sure you have Node.js installed.
-Then run:
+Menjalankan Pengujian
 
-bash
-Salin
-Edit
+Struktur Tes
+
+Kontribusi
+
+Author
+
+🔧 Prasyarat
+Sebelum memulai, pastikan Anda telah menginstal perangkat lunak berikut di sistem Anda:
+
+Node.js: Versi 18.x atau yang lebih baru direkomendasikan.
+
+npm: Biasanya terinstal secara otomatis bersama Node.js.
+
+🚀 Panduan Memulai
+Ikuti langkah-langkah ini untuk menyiapkan proyek di mesin lokal Anda.
+
+1. Clone Repositori
+Buka terminal Anda dan jalankan perintah berikut untuk meng-clone repositori ke direktori lokal Anda, lalu masuk ke direktori tersebut.
+
+Bash
+
+git clone https://github.com/yourusername/codingcollective-cypress-tests.git
+cd codingcollective-cypress-tests
+Catatan: Jangan lupa ganti yourusername dengan nama pengguna GitHub Anda.
+
+2. Instal Dependensi
+Selanjutnya, instal semua dependensi proyek yang diperlukan dari package.json dengan menjalankan:
+
+Bash
+
 npm install
-Run the tests
-To run all tests headlessly:
+🧪 Menjalankan Pengujian
+Anda dapat menjalankan pengujian dalam dua mode yang berbeda:
 
-bash
-Salin
-Edit
+Mode Headless
+Mode ini menjalankan semua pengujian di background tanpa membuka antarmuka browser. Sangat ideal untuk lingkungan CI/CD atau saat Anda hanya ingin verifikasi cepat.
+
+Bash
+
 npm run test
-Or open the interactive test runner:
+Mode Interaktif
+Mode ini akan membuka Cypress Test Runner. Anda dapat melihat tes berjalan secara real-time, memilih tes spesifik untuk dijalankan, dan menggunakan alat debugging bawaan Cypress.
 
-bash
-Salin
-Edit
+Bash
+
 npm run open
-Test Structure
-Test scenarios and test cases cover navigation, content validation, form submission, and external links.
+📂 Struktur Tes
+Semua file pengujian (test cases) terletak di dalam direktori cypress/e2e/.
 
-Tests are organized in the cypress/e2e folder.
+Skenario pengujian mencakup fungsionalitas utama situs, seperti:
 
-Contribution
-Feel free to open issues or pull requests to improve the tests.
+Navigasi antar halaman
 
-Author: Your Name
-Date: YYYY-MM-DD
+Validasi konten
+
+Pengiriman dan validasi formulir
+
+Pemeriksaan tautan eksternal
+
+✨ Kontribusi
+Kontribusi sangat kami harapkan! Jangan ragu untuk membuka issue jika menemukan masalah atau mengajukan pull request untuk meningkatkan kualitas pengujian.
+
+✍️ Author
+Nama: Your Name
+
+Tanggal: 2025-08-09
