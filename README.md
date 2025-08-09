@@ -4,12 +4,6 @@ Repositori ini berisi rangkaian pengujian End-to-End (E2E) otomatis untuk situs 
 
 ---
 
-## 📋 Daftar Isi
-
-- [Prasyarat](#-prasyarat)  
-- [Panduan Memulai](#-panduan-memulai)  
----
-
 ## 🔧 Prasyarat
 
 Sebelum memulai, pastikan perangkat lunak berikut telah terinstal di sistem Anda:
