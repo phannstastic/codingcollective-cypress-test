@@ -1,6 +1,7 @@
 # CodingCollective Cypress E2E Tests
 
 Repositori ini berisi rangkaian pengujian End-to-End (E2E) otomatis untuk situs web **Coding Collective** menggunakan Cypress.
+![Hasil Running]([https://i.imgur.com/xxxxxxx.png](https://imgur.com/a/dBVepVI))
 
 ---
 
