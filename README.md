@@ -26,7 +26,6 @@ Buka terminal dan jalankan perintah berikut untuk meng-clone repositori ke direk
 git clone https://github.com/yourusername/codingcollective-cypress-tests.git
 cd codingcollective-cypress-tests
 ```
----
 
 ### 2. Instal dependensi
 
