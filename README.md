@@ -44,4 +44,5 @@ npm install
 ## ✍️ Author
 
 **Nama:** Muhammad Irfan Trinugroho
+
 **Tanggal:** 2025-08-09
