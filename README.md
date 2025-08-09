@@ -8,11 +8,6 @@ Repositori ini berisi rangkaian pengujian End-to-End (E2E) otomatis untuk situs 
 
 - [Prasyarat](#-prasyarat)  
 - [Panduan Memulai](#-panduan-memulai)  
-- [Menjalankan Pengujian](#-menjalankan-pengujian)  
-- [Struktur Tes](#-struktur-tes)  
-- [Kontribusi](#-kontribusi)  
-- [Author](#-author)  
-
 ---
 
 ## 🔧 Prasyarat
@@ -35,6 +30,7 @@ Buka terminal dan jalankan perintah berikut untuk meng-clone repositori ke direk
 ```bash
 git clone https://github.com/yourusername/codingcollective-cypress-tests.git
 cd codingcollective-cypress-tests
+```
 ---
 
 ### 2. Instal dependensi
@@ -42,27 +38,7 @@ cd codingcollective-cypress-tests
 Instal semua dependensi yang diperlukan menggunakan perintah:
 ```bash
 npm install
----
-
-## 📂 Struktur Tes
-
-Semua file pengujian terletak di folder:
-```bash
-cypress/e2e/
-
-Skenario pengujian meliputi:
-
-- Navigasi antar halaman  
-- Validasi konten halaman  
-- Pengiriman dan validasi formulir  
-- Pemeriksaan tautan eksternal  
-
----
-
-## ✨ Kontribusi
-
-Kontribusi sangat kami hargai! Silakan buka issue untuk melaporkan masalah atau ajukan pull request untuk meningkatkan pengujian.
-
+```
 ---
 
 ## ✍️ Author
